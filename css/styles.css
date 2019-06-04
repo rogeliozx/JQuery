@@ -17,12 +17,12 @@
     margin: 0px auto;
     margin-top: 1.3vw;
     background: white;
-    padding: 2vw;
+    padding: 2.2vw;
     box-shadow: 0px 0px 2px gray;
 }
 #logo{
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size: 30px;
+font-size: 2.1vw;
 letter-spacing: 4px;
 background: #235e3d;
 color: white;
@@ -32,4 +32,127 @@ height: 6.5vw;
 float: left;
 margin-bottom: 1.5vw;
 line-height: 7vw;
+text-transform: uppercase;
+}
+nav{
+    font-family:Helvetica,Arial, sans-serif;
+    background: #333;
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 1.2vw;
+
+}
+nav ul{
+    line-height: 3vw;
+  
+
+}
+nav ul li{
+    height: 3vw;
+    display: inline-block;
+    transition: all 300ms;
+}
+nav ul li:hover{
+    background: #235e3d;
+}
+nav ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+#post{
+    width: 60%;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif
+  
+}
+.post{
+    padding: 0.5vw;
+}
+.post h2{
+font-size: 2vw;
+color:#333;
+
+
+}
+.post .date{
+color: gray;
+margin-top: 0.5vw;
+display: block;
+}
+.post p{
+    margin-top: 1vw;
+    margin-bottom: 1.5vw;
+    line-height: 1.4vw;
+    text-align: justify;
+}
+.button-more{
+    display:block;
+    padding: 1vw;
+    background: #235e3d;
+    color: white;
+    text-decoration: none;
+    margin-top: 1vw;
+    width: 6vw;
+    text-align: center;
+    font-size: 1.3vw;
+    margin-bottom: 1.2vw;
+}
+aside{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 31%;
+    float:right;
+}
+aside h4{
+margin-top: 4vw;
+margin-bottom: 1vw;
+text-align: center;
+line-height: 1vw;
+color: #333;
+background: url(../Img/lines.png) repeat-x;
+}
+aside h4 span{
+    background: white;
+    padding: 0.5vw;
+}
+aside img{
+width: 100%;
+}
+aside p{
+    font-size: 1vw;
+    text-align: justify;
+}
+form input[type="text"],form input[type="password"],form input[type="email"]{
+    padding: 0.5vw;
+    border-radius: 2px;
+    border :1px solid #ccc;
+    width: 80%;
+    margin-bottom: 1vw;
+  margin-top: 1vw;
+
+}
+form input[type="submit"]{
+    background: #ccc;
+    padding: 0.8vw;
+    border: 1px solid #ccc;
+    color: #333;
+    cursor: pointer;
+}
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    height: 3.5vw;
+    background: rgb(51, 51, 51,0.70);
+    margin: 0px auto;
+    width: 65%;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-top: 4vw;
+    line-height: 3.9vw;
+}
+.bx-wrapper,.bx-viewport{
+    height: 22vh !important;
+
 }

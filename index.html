@@ -6,6 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!--Slider-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <!--Moment-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script>
+    <!--My scripts-->
+    <script src="js/main.js"></script>
     <title>Metal Page</title>
 </head>
 
@@ -16,7 +27,7 @@
                 <h1>Metal Landing</h1>
             </div>
             <div class='clear'></div>
-            
+
             <nav>
                 <ul id="menu">
                     <li><a href="#">Inicio</a></li>
@@ -28,35 +39,53 @@
             </nav>
         </header>
         <!--Slider-->
-        <div id='slider'></div>
+        <div id='slider'>
+            <div class="bxslider">
+                <div><img src="Img/cielo.jpg" title="Full the sky"></div>
+                <div><img src="Img/hojas.jpg" title="The threes of earth"></div>
+                <div><img src="Img/rojo.jpg" title="Like blood in the ground"></div>
+              </div>
+        </div>
         <!--contenido-->
         <section id='content'>
             <div id='post'>
-                <article class="post">
-                    <h2>Titulo del articulo</h2>
-                    <span>Fecha de publicacion</span>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In purus est, luctus sed dignissim id,
-                        finibus vitae metus. Fusce et finibus magna, a suscipit metus. Maecenas vulputate, odio gravida
-                        vehicula faucibus, tellus nulla sagittis velit, id rutrum nisi augue a enim. Nulla fermentum
-                        lectus ex, vitae varius ligula sagittis sit amet. Nulla fringilla sit amet sapien quis faucibus.
-                        Ut semper elementum commodo. Curabitur consectetur, urna ut porttitor condimentum, tellus ex
-                        ultricies ante, ut tristique ligula nulla nec ex. Fusce sed condimentum mi, a mollis dui. Morbi
-                        eros risus, semper sed eros ut, maximus viverra nisi. Ut dolor elit, molestie vitae neque et,
-                        efficitur pellentesque lorem. Vestibulum sed mauris faucibus, posuere eros a, sodales nisi.
-                        Curabitur vestibulum urna eu suscipit consequat. Aliquam erat volutpat.
-                    </p>
-                </article>
-            </div>
-            <sidebar id="sidebar">
+               
                 
-            </sidebar>
+            </div>
+
+            <aside id="sidebar">
+                <div id='about' class=''></div>
+                <h4><span>¿quien soy?</h4>
+                <img src="Img/caracol.jpg" />
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In purus est, luctus sed dignissim id,
+                    finibus vitae metus. Fusce et finibus magna, a suscipit metus. Maecenas vulputate, odio gravida</p>
+                <div id='login' class=''>
+                    <h4><span>Identificar</span></h4>
+                    <form>
+                        <label for="name">
+                            Nombre
+                        </label>
+                        <input type="text" name="name">
+                        <label for="Email">
+                            Correo
+                        </label>
+                        <input type="Email" name="Email">
+                        <label for="password">
+                            Contraseña
+                        </label>
+                        <input type="password" name="password">
+                        <input type="submit" value="Entrar">
+                    </form>
+                </div>
+            </aside>
+            <div class='clear'></div>
+
         </section>
 
     </section>
-<footer>
-    Me la pelas pino y me cagas :v
-</footer>
+    <footer>
+        Me la pelas pino y me cagas :v
+    </footer>
 </body>
 
 </html>
