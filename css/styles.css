@@ -8,10 +8,7 @@
      float: none;
      clear: both;
  }
- body{
-    background: url('../Img/hojas.jpg');
-    background-attachment: fixed;
-}
+ 
 #global{
     width: 65%;
     margin: 0px auto;
@@ -24,7 +21,6 @@
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 2.1vw;
 letter-spacing: 4px;
-background: #235e3d;
 color: white;
 text-align: center;
 width: 34vw;
@@ -36,7 +32,6 @@ text-transform: uppercase;
 }
 nav{
     font-family:Helvetica,Arial, sans-serif;
-    background: #333;
     width: 100%;
     text-transform: uppercase;
     margin-bottom: 1.2vw;
@@ -52,9 +47,7 @@ nav ul li{
     display: inline-block;
     transition: all 300ms;
 }
-nav ul li:hover{
-    background: #235e3d;
-}
+
 nav ul li a{
     display: block;
     color: white;
@@ -91,7 +84,6 @@ display: block;
 .button-more{
     display:block;
     padding: 1vw;
-    background: #235e3d;
     color: white;
     text-decoration: none;
     margin-top: 1vw;
@@ -153,6 +145,40 @@ footer{
     line-height: 3.9vw;
 }
 .bx-wrapper,.bx-viewport{
-    height: 22vh !important;
+    height: 42vh !important;
 
+}
+#change{
+    position: fixed;
+    top: 40%;
+    background: rgb(51, 51, 51,0.50);
+    width: 4vw;
+    height: 15vh;
+}
+#green,#red,#blue{
+    width: 3vw;
+    height: 4vh;
+    border: 1px solid white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    cursor: pointer;
+}
+#green{
+    background: #235e3d;
+}
+#red{
+    background: #ca3413;
+}
+#blue{
+    background: #1f87c4;
+  
+}
+.subir{
+    color: white;
+    text-decoration: none;
+    display: block;
+    float: right;
+    font-size: 2vw;
 }
